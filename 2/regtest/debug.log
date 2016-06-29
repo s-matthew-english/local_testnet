@@ -1,0 +1,488 @@
+2016-06-29 10:32:06 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016-06-29 10:32:06 Bitcoin version v0.12.1.0-g9779e1e (Mon, 11 Apr 2016 13:01:43 +0200)
+2016-06-29 10:32:06 InitParameterInteraction: parameter interaction: -listen=0 -> setting -discover=0
+2016-06-29 10:32:06 InitParameterInteraction: parameter interaction: -listen=0 -> setting -listenonion=0
+2016-06-29 10:32:06 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2016-06-29 10:32:06 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2016-06-29 10:32:06 Default data directory /home/matthias/.bitcoin
+2016-06-29 10:32:06 Using data directory /home/matthias/lab/bitcoin-testnet-box/2/regtest
+2016-06-29 10:32:06 Using config file /home/matthias/lab/bitcoin-testnet-box/2/bitcoin.conf
+2016-06-29 10:32:06 Using at most 125 connections (1024 file descriptors available)
+2016-06-29 10:32:06 Using 2 threads for script verification
+2016-06-29 10:32:06 scheduler thread start
+2016-06-29 10:32:06 Binding RPC on address 0.0.0.0 port 19011 failed.
+2016-06-29 10:32:06 HTTP: creating work queue of depth 16
+2016-06-29 10:32:06 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2016-06-29 10:32:06 HTTP: starting 4 worker threads
+2016-06-29 10:32:06 Using wallet wallet.dat
+2016-06-29 10:32:06 init message: Verifying wallet...
+2016-06-29 10:32:06 CDBEnv::Open: LogDir=/home/matthias/lab/bitcoin-testnet-box/2/regtest/database ErrorFile=/home/matthias/lab/bitcoin-testnet-box/2/regtest/db.log
+2016-06-29 10:32:06 Cache configuration:
+2016-06-29 10:32:06 * Using 2.0MiB for block index database
+2016-06-29 10:32:06 * Using 32.5MiB for chain state database
+2016-06-29 10:32:06 * Using 65.5MiB for in-memory UTXO set
+2016-06-29 10:32:06 init message: Loading block index...
+2016-06-29 10:32:06 Opening LevelDB in /home/matthias/lab/bitcoin-testnet-box/2/regtest/blocks/index
+2016-06-29 10:32:06 Opened LevelDB successfully
+2016-06-29 10:32:06 Using obfuscation key for /home/matthias/lab/bitcoin-testnet-box/2/regtest/blocks/index: 0000000000000000
+2016-06-29 10:32:06 Opening LevelDB in /home/matthias/lab/bitcoin-testnet-box/2/regtest/chainstate
+2016-06-29 10:32:06 Opened LevelDB successfully
+2016-06-29 10:32:06 Wrote new obfuscate key for /home/matthias/lab/bitcoin-testnet-box/2/regtest/chainstate: 70e8749e4513096a
+2016-06-29 10:32:06 Using obfuscation key for /home/matthias/lab/bitcoin-testnet-box/2/regtest/chainstate: 70e8749e4513096a
+2016-06-29 10:32:06 LoadBlockIndexDB: last block file = 0
+2016-06-29 10:32:06 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2016-06-29 10:32:06 Checking all blk files are present...
+2016-06-29 10:32:06 LoadBlockIndexDB: transaction index disabled
+2016-06-29 10:32:06 Initializing databases...
+2016-06-29 10:32:06 Pre-allocating up to position 0x1000000 in blk00000.dat
+2016-06-29 10:32:06 UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206  height=0  log2_work=1  tx=1  date=2011-02-02 23:16:42 progress=1.000000  cache=0.0MiB(0tx)
+2016-06-29 10:32:06 init message: Verifying blocks...
+2016-06-29 10:32:06  block index             290ms
+2016-06-29 10:32:06 init message: Loading wallet...
+2016-06-29 10:32:06 nFileVersion = 120100
+2016-06-29 10:32:06 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2016-06-29 10:32:06 Performing wallet upgrade to 60000
+2016-06-29 10:32:06 keypool added key 1, size=1
+2016-06-29 10:32:06 keypool added key 2, size=2
+2016-06-29 10:32:06 keypool added key 3, size=3
+2016-06-29 10:32:06 keypool added key 4, size=4
+2016-06-29 10:32:06 keypool added key 5, size=5
+2016-06-29 10:32:06 keypool added key 6, size=6
+2016-06-29 10:32:06 keypool added key 7, size=7
+2016-06-29 10:32:06 keypool added key 8, size=8
+2016-06-29 10:32:06 keypool added key 9, size=9
+2016-06-29 10:32:07 keypool added key 10, size=10
+2016-06-29 10:32:07 keypool added key 11, size=11
+2016-06-29 10:32:07 keypool added key 12, size=12
+2016-06-29 10:32:07 keypool added key 13, size=13
+2016-06-29 10:32:07 keypool added key 14, size=14
+2016-06-29 10:32:07 keypool added key 15, size=15
+2016-06-29 10:32:07 keypool added key 16, size=16
+2016-06-29 10:32:07 keypool added key 17, size=17
+2016-06-29 10:32:07 keypool added key 18, size=18
+2016-06-29 10:32:07 keypool added key 19, size=19
+2016-06-29 10:32:07 keypool added key 20, size=20
+2016-06-29 10:32:07 keypool added key 21, size=21
+2016-06-29 10:32:07 keypool added key 22, size=22
+2016-06-29 10:32:07 keypool added key 23, size=23
+2016-06-29 10:32:07 keypool added key 24, size=24
+2016-06-29 10:32:07 keypool added key 25, size=25
+2016-06-29 10:32:07 keypool added key 26, size=26
+2016-06-29 10:32:07 keypool added key 27, size=27
+2016-06-29 10:32:07 keypool added key 28, size=28
+2016-06-29 10:32:07 keypool added key 29, size=29
+2016-06-29 10:32:07 keypool added key 30, size=30
+2016-06-29 10:32:07 keypool added key 31, size=31
+2016-06-29 10:32:07 keypool added key 32, size=32
+2016-06-29 10:32:07 keypool added key 33, size=33
+2016-06-29 10:32:07 keypool added key 34, size=34
+2016-06-29 10:32:07 keypool added key 35, size=35
+2016-06-29 10:32:07 keypool added key 36, size=36
+2016-06-29 10:32:07 keypool added key 37, size=37
+2016-06-29 10:32:07 keypool added key 38, size=38
+2016-06-29 10:32:07 keypool added key 39, size=39
+2016-06-29 10:32:08 keypool added key 40, size=40
+2016-06-29 10:32:08 keypool added key 41, size=41
+2016-06-29 10:32:08 keypool added key 42, size=42
+2016-06-29 10:32:08 keypool added key 43, size=43
+2016-06-29 10:32:08 keypool added key 44, size=44
+2016-06-29 10:32:08 keypool added key 45, size=45
+2016-06-29 10:32:08 keypool added key 46, size=46
+2016-06-29 10:32:08 keypool added key 47, size=47
+2016-06-29 10:32:08 keypool added key 48, size=48
+2016-06-29 10:32:08 keypool added key 49, size=49
+2016-06-29 10:32:08 keypool added key 50, size=50
+2016-06-29 10:32:08 keypool added key 51, size=51
+2016-06-29 10:32:08 keypool added key 52, size=52
+2016-06-29 10:32:08 keypool added key 53, size=53
+2016-06-29 10:32:08 keypool added key 54, size=54
+2016-06-29 10:32:08 keypool added key 55, size=55
+2016-06-29 10:32:08 keypool added key 56, size=56
+2016-06-29 10:32:08 keypool added key 57, size=57
+2016-06-29 10:32:08 keypool added key 58, size=58
+2016-06-29 10:32:08 keypool added key 59, size=59
+2016-06-29 10:32:08 keypool added key 60, size=60
+2016-06-29 10:32:08 keypool added key 61, size=61
+2016-06-29 10:32:08 keypool added key 62, size=62
+2016-06-29 10:32:08 keypool added key 63, size=63
+2016-06-29 10:32:08 keypool added key 64, size=64
+2016-06-29 10:32:08 keypool added key 65, size=65
+2016-06-29 10:32:08 keypool added key 66, size=66
+2016-06-29 10:32:08 keypool added key 67, size=67
+2016-06-29 10:32:08 keypool added key 68, size=68
+2016-06-29 10:32:09 keypool added key 69, size=69
+2016-06-29 10:32:09 keypool added key 70, size=70
+2016-06-29 10:32:09 keypool added key 71, size=71
+2016-06-29 10:32:09 keypool added key 72, size=72
+2016-06-29 10:32:09 keypool added key 73, size=73
+2016-06-29 10:32:09 keypool added key 74, size=74
+2016-06-29 10:32:09 keypool added key 75, size=75
+2016-06-29 10:32:09 keypool added key 76, size=76
+2016-06-29 10:32:09 keypool added key 77, size=77
+2016-06-29 10:32:09 keypool added key 78, size=78
+2016-06-29 10:32:09 keypool added key 79, size=79
+2016-06-29 10:32:09 keypool added key 80, size=80
+2016-06-29 10:32:09 keypool added key 81, size=81
+2016-06-29 10:32:09 keypool added key 82, size=82
+2016-06-29 10:32:09 keypool added key 83, size=83
+2016-06-29 10:32:09 keypool added key 84, size=84
+2016-06-29 10:32:09 keypool added key 85, size=85
+2016-06-29 10:32:09 keypool added key 86, size=86
+2016-06-29 10:32:09 keypool added key 87, size=87
+2016-06-29 10:32:09 keypool added key 88, size=88
+2016-06-29 10:32:09 keypool added key 89, size=89
+2016-06-29 10:32:09 keypool added key 90, size=90
+2016-06-29 10:32:09 keypool added key 91, size=91
+2016-06-29 10:32:09 keypool added key 92, size=92
+2016-06-29 10:32:09 keypool added key 93, size=93
+2016-06-29 10:32:09 keypool added key 94, size=94
+2016-06-29 10:32:09 keypool added key 95, size=95
+2016-06-29 10:32:09 keypool added key 96, size=96
+2016-06-29 10:32:09 keypool added key 97, size=97
+2016-06-29 10:32:09 keypool added key 98, size=98
+2016-06-29 10:32:10 keypool added key 99, size=99
+2016-06-29 10:32:10 keypool added key 100, size=100
+2016-06-29 10:32:10 keypool added key 101, size=101
+2016-06-29 10:32:10 keypool reserve 1
+2016-06-29 10:32:10 keypool keep 1
+2016-06-29 10:32:10  wallet                 3703ms
+2016-06-29 10:32:10 init message: Activating best chain...
+2016-06-29 10:32:10 mapBlockIndex.size() = 1
+2016-06-29 10:32:10 nBestHeight = 0
+2016-06-29 10:32:10 setKeyPool.size() = 100
+2016-06-29 10:32:10 mapWallet.size() = 0
+2016-06-29 10:32:10 mapAddressBook.size() = 1
+2016-06-29 10:32:10 init message: Loading addresses...
+2016-06-29 10:32:10 ERROR: Read: Failed to open file /home/matthias/lab/bitcoin-testnet-box/2/regtest/peers.dat
+2016-06-29 10:32:10 Invalid or missing peers.dat; recreating
+2016-06-29 10:32:10 ERROR: Read: Failed to open file /home/matthias/lab/bitcoin-testnet-box/2/regtest/banlist.dat
+2016-06-29 10:32:10 Invalid or missing banlist.dat; recreating
+2016-06-29 10:32:10 Loaded 0 addresses from peers.dat  0ms
+2016-06-29 10:32:10 DNS seeding disabled
+2016-06-29 10:32:10 addcon thread start
+2016-06-29 10:32:10 opencon thread start
+2016-06-29 10:32:10 net thread start
+2016-06-29 10:32:10 init message: Done loading
+2016-06-29 10:32:10 msghand thread start
+2016-06-29 10:32:10 receive version message: /Satoshi:0.12.1/: version 70012, blocks=0, us=0.0.0.0:0, peer=1
+2016-06-29 10:32:46 addcon thread interrupt
+2016-06-29 10:32:46 scheduler thread interrupt
+2016-06-29 10:32:46 msghand thread interrupt
+2016-06-29 10:32:46 opencon thread interrupt
+2016-06-29 10:32:46 net thread interrupt
+2016-06-29 10:32:46 Shutdown: In progress...
+2016-06-29 10:32:46 StopNode()
+2016-06-29 10:32:46 Shutdown: done
+2016-06-29 10:32:50 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016-06-29 10:32:50 Bitcoin version v0.12.1.0-g9779e1e (Mon, 11 Apr 2016 13:01:43 +0200)
+2016-06-29 10:32:50 InitParameterInteraction: parameter interaction: -listen=0 -> setting -discover=0
+2016-06-29 10:32:50 InitParameterInteraction: parameter interaction: -listen=0 -> setting -listenonion=0
+2016-06-29 10:32:50 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2016-06-29 10:32:50 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2016-06-29 10:32:50 Default data directory /home/matthias/.bitcoin
+2016-06-29 10:32:50 Using data directory /home/matthias/lab/bitcoin-testnet-box/2/regtest
+2016-06-29 10:32:50 Using config file /home/matthias/lab/bitcoin-testnet-box/2/bitcoin.conf
+2016-06-29 10:32:50 Using at most 125 connections (1024 file descriptors available)
+2016-06-29 10:32:50 Using 2 threads for script verification
+2016-06-29 10:32:50 scheduler thread start
+2016-06-29 10:32:50 Binding RPC on address 0.0.0.0 port 19011 failed.
+2016-06-29 10:32:50 HTTP: creating work queue of depth 16
+2016-06-29 10:32:50 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2016-06-29 10:32:50 HTTP: starting 4 worker threads
+2016-06-29 10:32:50 Using wallet wallet.dat
+2016-06-29 10:32:50 init message: Verifying wallet...
+2016-06-29 10:32:50 CDBEnv::Open: LogDir=/home/matthias/lab/bitcoin-testnet-box/2/regtest/database ErrorFile=/home/matthias/lab/bitcoin-testnet-box/2/regtest/db.log
+2016-06-29 10:32:50 Cache configuration:
+2016-06-29 10:32:50 * Using 2.0MiB for block index database
+2016-06-29 10:32:50 * Using 32.5MiB for chain state database
+2016-06-29 10:32:50 * Using 65.5MiB for in-memory UTXO set
+2016-06-29 10:32:50 init message: Loading block index...
+2016-06-29 10:32:50 Opening LevelDB in /home/matthias/lab/bitcoin-testnet-box/2/regtest/blocks/index
+2016-06-29 10:32:50 Opened LevelDB successfully
+2016-06-29 10:32:50 Using obfuscation key for /home/matthias/lab/bitcoin-testnet-box/2/regtest/blocks/index: 0000000000000000
+2016-06-29 10:32:50 Opening LevelDB in /home/matthias/lab/bitcoin-testnet-box/2/regtest/chainstate
+2016-06-29 10:32:51 Opened LevelDB successfully
+2016-06-29 10:32:51 Using obfuscation key for /home/matthias/lab/bitcoin-testnet-box/2/regtest/chainstate: 70e8749e4513096a
+2016-06-29 10:32:51 LoadBlockIndexDB: last block file = 0
+2016-06-29 10:32:51 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2016-06-29 10:32:51 Checking all blk files are present...
+2016-06-29 10:32:51 LoadBlockIndexDB: transaction index disabled
+2016-06-29 10:32:51 LoadBlockIndexDB: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02 23:16:42 progress=1.000000
+2016-06-29 10:32:51 init message: Verifying blocks...
+2016-06-29 10:32:51  block index             104ms
+2016-06-29 10:32:51 init message: Loading wallet...
+2016-06-29 10:32:51 nFileVersion = 120100
+2016-06-29 10:32:51 Keys: 101 plaintext, 0 encrypted, 101 w/ metadata, 101 total
+2016-06-29 10:32:51  wallet                   24ms
+2016-06-29 10:32:51 init message: Activating best chain...
+2016-06-29 10:32:51 mapBlockIndex.size() = 1
+2016-06-29 10:32:51 nBestHeight = 0
+2016-06-29 10:32:51 setKeyPool.size() = 100
+2016-06-29 10:32:51 mapWallet.size() = 0
+2016-06-29 10:32:51 mapAddressBook.size() = 1
+2016-06-29 10:32:51 init message: Loading addresses...
+2016-06-29 10:32:51 ERROR: Read: Failed to open file /home/matthias/lab/bitcoin-testnet-box/2/regtest/banlist.dat
+2016-06-29 10:32:51 Invalid or missing banlist.dat; recreating
+2016-06-29 10:32:51 Loaded 0 addresses from peers.dat  0ms
+2016-06-29 10:32:51 DNS seeding disabled
+2016-06-29 10:32:51 net thread start
+2016-06-29 10:32:51 opencon thread start
+2016-06-29 10:32:51 addcon thread start
+2016-06-29 10:32:51 init message: Done loading
+2016-06-29 10:32:51 msghand thread start
+2016-06-29 10:32:51 receive version message: /Satoshi:0.12.1/: version 70012, blocks=0, us=0.0.0.0:0, peer=1
+2016-06-29 10:32:53 keypool added key 102, size=101
+2016-06-29 10:32:53 keypool reserve 2
+2016-06-29 10:32:53 keypool return 2
+2016-06-29 10:32:58 msghand thread interrupt
+2016-06-29 10:32:58 addcon thread interrupt
+2016-06-29 10:32:58 scheduler thread interrupt
+2016-06-29 10:32:58 opencon thread interrupt
+2016-06-29 10:32:58 net thread interrupt
+2016-06-29 10:32:58 Shutdown: In progress...
+2016-06-29 10:32:58 StopNode()
+2016-06-29 10:32:58 Shutdown: done
+2016-06-29 10:34:47 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016-06-29 10:34:47 Bitcoin version v0.12.1.0-g9779e1e (Mon, 11 Apr 2016 13:01:43 +0200)
+2016-06-29 10:34:47 InitParameterInteraction: parameter interaction: -listen=0 -> setting -discover=0
+2016-06-29 10:34:47 InitParameterInteraction: parameter interaction: -listen=0 -> setting -listenonion=0
+2016-06-29 10:34:47 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2016-06-29 10:34:47 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2016-06-29 10:34:47 Default data directory /home/matthias/.bitcoin
+2016-06-29 10:34:47 Using data directory /home/matthias/lab/bitcoin-testnet-box/2/regtest
+2016-06-29 10:34:47 Using config file /home/matthias/lab/bitcoin-testnet-box/2/bitcoin.conf
+2016-06-29 10:34:47 Using at most 125 connections (1024 file descriptors available)
+2016-06-29 10:34:47 Using 2 threads for script verification
+2016-06-29 10:34:47 scheduler thread start
+2016-06-29 10:34:47 Binding RPC on address 0.0.0.0 port 19011 failed.
+2016-06-29 10:34:47 HTTP: creating work queue of depth 16
+2016-06-29 10:34:47 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2016-06-29 10:34:47 HTTP: starting 4 worker threads
+2016-06-29 10:34:47 Using wallet wallet.dat
+2016-06-29 10:34:47 init message: Verifying wallet...
+2016-06-29 10:34:47 CDBEnv::Open: LogDir=/home/matthias/lab/bitcoin-testnet-box/2/regtest/database ErrorFile=/home/matthias/lab/bitcoin-testnet-box/2/regtest/db.log
+2016-06-29 10:34:47 Cache configuration:
+2016-06-29 10:34:47 * Using 2.0MiB for block index database
+2016-06-29 10:34:47 * Using 32.5MiB for chain state database
+2016-06-29 10:34:47 * Using 65.5MiB for in-memory UTXO set
+2016-06-29 10:34:47 init message: Loading block index...
+2016-06-29 10:34:47 Opening LevelDB in /home/matthias/lab/bitcoin-testnet-box/2/regtest/blocks/index
+2016-06-29 10:34:47 Opened LevelDB successfully
+2016-06-29 10:34:47 Using obfuscation key for /home/matthias/lab/bitcoin-testnet-box/2/regtest/blocks/index: 0000000000000000
+2016-06-29 10:34:47 Opening LevelDB in /home/matthias/lab/bitcoin-testnet-box/2/regtest/chainstate
+2016-06-29 10:34:47 Opened LevelDB successfully
+2016-06-29 10:34:47 Using obfuscation key for /home/matthias/lab/bitcoin-testnet-box/2/regtest/chainstate: 70e8749e4513096a
+2016-06-29 10:34:47 LoadBlockIndexDB: last block file = 0
+2016-06-29 10:34:47 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2016-06-29 10:34:47 Checking all blk files are present...
+2016-06-29 10:34:47 LoadBlockIndexDB: transaction index disabled
+2016-06-29 10:34:47 LoadBlockIndexDB: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02 23:16:42 progress=1.000000
+2016-06-29 10:34:47 init message: Verifying blocks...
+2016-06-29 10:34:47  block index             122ms
+2016-06-29 10:34:47 init message: Loading wallet...
+2016-06-29 10:34:47 nFileVersion = 120100
+2016-06-29 10:34:47 Keys: 102 plaintext, 0 encrypted, 102 w/ metadata, 102 total
+2016-06-29 10:34:47  wallet                   27ms
+2016-06-29 10:34:47 init message: Activating best chain...
+2016-06-29 10:34:47 mapBlockIndex.size() = 1
+2016-06-29 10:34:47 nBestHeight = 0
+2016-06-29 10:34:47 setKeyPool.size() = 101
+2016-06-29 10:34:47 mapWallet.size() = 0
+2016-06-29 10:34:47 mapAddressBook.size() = 1
+2016-06-29 10:34:47 init message: Loading addresses...
+2016-06-29 10:34:47 ERROR: Read: Failed to open file /home/matthias/lab/bitcoin-testnet-box/2/regtest/banlist.dat
+2016-06-29 10:34:47 Invalid or missing banlist.dat; recreating
+2016-06-29 10:34:47 Loaded 0 addresses from peers.dat  0ms
+2016-06-29 10:34:47 DNS seeding disabled
+2016-06-29 10:34:47 net thread start
+2016-06-29 10:34:47 init message: Done loading
+2016-06-29 10:34:47 addcon thread start
+2016-06-29 10:34:47 opencon thread start
+2016-06-29 10:34:47 msghand thread start
+2016-06-29 10:34:47 receive version message: /Satoshi:0.12.1/: version 70012, blocks=0, us=0.0.0.0:0, peer=1
+2016-06-29 10:35:03 Pre-allocating up to position 0x100000 in rev00000.dat
+2016-06-29 10:35:03 UpdateTip: new best=3a5fcc1fca1e04cbf888080cb2838cfaa6ee975f417cb8964f1688cee7341084  height=1  log2_work=2  tx=2  date=2016-06-29 10:35:03 progress=1.000000  cache=0.0MiB(1tx)
+2016-06-29 10:35:03 UpdateTip: new best=264dbf622affa0d797dfb75c0d28e7baf99a3c8ae6bc79b4045350a3bec0ec91  height=2  log2_work=2.5849625  tx=3  date=2016-06-29 10:35:04 progress=1.000000  cache=0.0MiB(2tx)
+2016-06-29 10:35:03 UpdateTip: new best=75df8bddb3e67dc33e0906b99778a9cf5e253d5703797387e6dbb5f8d439c134  height=3  log2_work=3  tx=4  date=2016-06-29 10:35:04 progress=1.000000  cache=0.0MiB(3tx)
+2016-06-29 10:35:03 UpdateTip: new best=690969c299072733f87d1c7bac43d24b1e22927efb346f7c4e15130b1a13e456  height=4  log2_work=3.3219281  tx=5  date=2016-06-29 10:35:05 progress=1.000000  cache=0.0MiB(4tx)
+2016-06-29 10:35:03 UpdateTip: new best=203dae5ded47915e72dcd56d91eb3f1fa73e7148ed317bba2a0921703b2272f8  height=5  log2_work=3.5849625  tx=6  date=2016-06-29 10:35:05 progress=1.000000  cache=0.0MiB(5tx)
+2016-06-29 10:35:03 UpdateTip: new best=15bbb81fb3b6b316ee831606d829549485bade7dbb36ecd4ab7feb5bfa470dca  height=6  log2_work=3.8073549  tx=7  date=2016-06-29 10:35:05 progress=1.000000  cache=0.0MiB(6tx)
+2016-06-29 10:35:03 UpdateTip: new best=206616de262b36c684a35430f312770125610d1b1bb758c4f33711f9435efa1b  height=7  log2_work=4  tx=8  date=2016-06-29 10:35:05 progress=1.000000  cache=0.0MiB(7tx)
+2016-06-29 10:35:03 UpdateTip: new best=7c146165780d8e9d3089ae6438db2b92aa2f24e6d72a62535223b32d7174503a  height=8  log2_work=4.169925  tx=9  date=2016-06-29 10:35:06 progress=1.000000  cache=0.0MiB(8tx)
+2016-06-29 10:35:03 UpdateTip: new best=4905e952dcefe169b5f8f96672bf9112dcd7dbef4ccda3a05f00b49ca3563216  height=9  log2_work=4.3219281  tx=10  date=2016-06-29 10:35:06 progress=1.000000  cache=0.0MiB(9tx)
+2016-06-29 10:35:03 UpdateTip: new best=6387184fd9419d495954f7e598441a36d7f23ca76cadfc3af8fbb83165a4179d  height=10  log2_work=4.4594316  tx=11  date=2016-06-29 10:35:06 progress=1.000000  cache=0.0MiB(10tx)
+2016-06-29 10:35:03 UpdateTip: new best=6c048279a05a4d21a1ad424c378c0ae71c99ab80327b26c1b88638d25e6c47b3  height=11  log2_work=4.5849625  tx=12  date=2016-06-29 10:35:06 progress=1.000000  cache=0.0MiB(11tx)
+2016-06-29 10:35:03 UpdateTip: new best=01fb9d749eb9d212551b28ac276b6f55b4e1edb755a492466a32576872b828be  height=12  log2_work=4.7004397  tx=13  date=2016-06-29 10:35:06 progress=1.000000  cache=0.0MiB(12tx)
+2016-06-29 10:35:03 UpdateTip: new best=3507d0791d53dd26f3d2d984c96e746a8d051a4a683f58cbd7e817f2b9a4150d  height=13  log2_work=4.8073549  tx=14  date=2016-06-29 10:35:06 progress=1.000000  cache=0.0MiB(13tx)
+2016-06-29 10:35:03 UpdateTip: new best=490ca82759265ed602fa90f07c0441c233b078ffa3e7588e25e01a89b8385b0b  height=14  log2_work=4.9068906  tx=15  date=2016-06-29 10:35:07 progress=1.000000  cache=0.0MiB(14tx)
+2016-06-29 10:35:03 UpdateTip: new best=4507f92e0c45a4c6c5ef5f1842b93de4c0531c69e9026a02ef6c58466a4af76d  height=15  log2_work=5  tx=16  date=2016-06-29 10:35:07 progress=1.000000  cache=0.0MiB(15tx)
+2016-06-29 10:35:03 UpdateTip: new best=1b30b60492a17f32035d227e7191987777deb076875965a1e4ccd0ccae8af9f0  height=16  log2_work=5.0874628  tx=17  date=2016-06-29 10:35:07 progress=1.000000  cache=0.0MiB(16tx)
+2016-06-29 10:35:03 UpdateTip: new best=71a6d5a7b2de305938cf06612dba7fd0e98637df529bb7f3923624dae7da0a05  height=17  log2_work=5.169925  tx=18  date=2016-06-29 10:35:07 progress=1.000000  cache=0.0MiB(17tx)
+2016-06-29 10:35:03 UpdateTip: new best=2f1653ff0ddae1c9dd69286812645eb73594410366d1d466d8763d3fba82ea5a  height=18  log2_work=5.2479275  tx=19  date=2016-06-29 10:35:07 progress=1.000000  cache=0.0MiB(18tx)
+2016-06-29 10:35:03 UpdateTip: new best=703f3e3011e2a2e1bee1fc4b77411e0fe0e66eb88efdbcd731b0cbf4ac1fb171  height=19  log2_work=5.3219281  tx=20  date=2016-06-29 10:35:07 progress=1.000000  cache=0.0MiB(19tx)
+2016-06-29 10:35:03 UpdateTip: new best=0f2d0d1dd8a2620ba3deeee6cebdf601fc13a6e32f33d4f802bbbf4167583177  height=20  log2_work=5.3923174  tx=21  date=2016-06-29 10:35:08 progress=1.000000  cache=0.0MiB(20tx)
+2016-06-29 10:35:03 UpdateTip: new best=42ee96606fc1be634d88354d9598400e4d9f68d19b139c9dbccf74cdc8cc1809  height=21  log2_work=5.4594316  tx=22  date=2016-06-29 10:35:08 progress=1.000000  cache=0.0MiB(21tx)
+2016-06-29 10:35:03 UpdateTip: new best=0f527d756dce3737800f7e7d509cea7615ab8167fd2172adb1320d342ecc1835  height=22  log2_work=5.523562  tx=23  date=2016-06-29 10:35:08 progress=1.000000  cache=0.0MiB(22tx)
+2016-06-29 10:35:03 UpdateTip: new best=7e803c6693188a872ddf4e78ee6a74d632c3c67138b9ca95ea7f5d59948c20a7  height=23  log2_work=5.5849625  tx=24  date=2016-06-29 10:35:08 progress=1.000000  cache=0.0MiB(23tx)
+2016-06-29 10:35:03 UpdateTip: new best=0fe26293ea10bd763e0ffa1cf52737436e8e1011d3e0465af55057e96cfdd5b8  height=24  log2_work=5.6438562  tx=25  date=2016-06-29 10:35:08 progress=1.000000  cache=0.0MiB(24tx)
+2016-06-29 10:35:03 UpdateTip: new best=272774a0100ed3a73680bcd5f86a8aac1f1a5c33819c78608ff33412cacf8f96  height=25  log2_work=5.7004397  tx=26  date=2016-06-29 10:35:08 progress=1.000000  cache=0.0MiB(25tx)
+2016-06-29 10:35:03 UpdateTip: new best=5f39060d112c52f4adfb4105745f8cd68b3f92984ea0261e9ffd4d41c40d5825  height=26  log2_work=5.7548875  tx=27  date=2016-06-29 10:35:09 progress=1.000000  cache=0.0MiB(26tx)
+2016-06-29 10:35:03 UpdateTip: new best=59f010c1ef17fc1c7c4a660dddf5c45b469e465e10104da9ee144664ef335e55  height=27  log2_work=5.8073549  tx=28  date=2016-06-29 10:35:09 progress=1.000000  cache=0.0MiB(27tx)
+2016-06-29 10:35:03 UpdateTip: new best=6ddea0fb271ba2263385995ecc5d1995543130b385fcc74e6263fc282f86001c  height=28  log2_work=5.857981  tx=29  date=2016-06-29 10:35:09 progress=1.000000  cache=0.0MiB(28tx)
+2016-06-29 10:35:03 UpdateTip: new best=105583a681fcb7b62e6cfa4604e5fdbc98c43a00f70a74343668ddc51397a6a4  height=29  log2_work=5.9068906  tx=30  date=2016-06-29 10:35:09 progress=1.000000  cache=0.0MiB(29tx)
+2016-06-29 10:35:03 UpdateTip: new best=2cd74a4b709f00628d7bc124c5bfab2eeea99466f0f9abaaab71d6e992d0fca4  height=30  log2_work=5.9541963  tx=31  date=2016-06-29 10:35:09 progress=1.000000  cache=0.0MiB(30tx)
+2016-06-29 10:35:03 UpdateTip: new best=525db48ac028cb5246d64593d28e0a61945e3a579e1c1f9045ee49689fc82a15  height=31  log2_work=6  tx=32  date=2016-06-29 10:35:09 progress=1.000000  cache=0.0MiB(31tx)
+2016-06-29 10:35:03 UpdateTip: new best=700de4c8a010ee8f3b7974cd641623f2ae1c6b5b2fb2cc4c5946789c8baf8edb  height=32  log2_work=6.0443941  tx=33  date=2016-06-29 10:35:10 progress=1.000000  cache=0.0MiB(32tx)
+2016-06-29 10:35:03 UpdateTip: new best=6682891531fed18d0a7bd53fa1a8fabb9bad75c4c39905df234018116cf08de3  height=33  log2_work=6.0874628  tx=34  date=2016-06-29 10:35:10 progress=1.000000  cache=0.0MiB(33tx)
+2016-06-29 10:35:03 UpdateTip: new best=30babbf0a0903a6ec84cdaff5dcd10e49128677db9169ff62f08762562f53f72  height=34  log2_work=6.129283  tx=35  date=2016-06-29 10:35:10 progress=1.000000  cache=0.0MiB(34tx)
+2016-06-29 10:35:03 UpdateTip: new best=7eec0e10c23532ad81f8b5842e5a55651b8be8137c6fbf5736f7b1bf096ed1b4  height=35  log2_work=6.169925  tx=36  date=2016-06-29 10:35:10 progress=1.000000  cache=0.0MiB(35tx)
+2016-06-29 10:35:03 UpdateTip: new best=01e6d2f6a14e3e26fbdd01763d2cd11084b06711cf0e3d61ab0701bdde2cc63e  height=36  log2_work=6.2094534  tx=37  date=2016-06-29 10:35:10 progress=1.000000  cache=0.0MiB(36tx)
+2016-06-29 10:35:03 UpdateTip: new best=153b704f6b88507b42c8765cccf45a83f8532051bee63f73fe703c0141ef72c0  height=37  log2_work=6.2479275  tx=38  date=2016-06-29 10:35:10 progress=1.000000  cache=0.0MiB(37tx)
+2016-06-29 10:35:03 UpdateTip: new best=6b5023247400c60d79d9a80110b3dc28019a5adde5a31f2726f2133387d3cac7  height=38  log2_work=6.2854022  tx=39  date=2016-06-29 10:35:11 progress=1.000000  cache=0.0MiB(38tx)
+2016-06-29 10:35:03 UpdateTip: new best=576e41921cf528cc603812824bc11d0030fd62cc837fe4fdb16ecbb5eba06879  height=39  log2_work=6.3219281  tx=40  date=2016-06-29 10:35:11 progress=1.000000  cache=0.0MiB(39tx)
+2016-06-29 10:35:03 UpdateTip: new best=7f1c0f89826996769e68583205da84f6cdf25b2fe69014b44560b306b09359a4  height=40  log2_work=6.357552  tx=41  date=2016-06-29 10:35:11 progress=1.000000  cache=0.0MiB(40tx)
+2016-06-29 10:35:03 UpdateTip: new best=1375f3954784b6a20e59649408223cf89675df8f0218201d4f894cfbbebe0505  height=41  log2_work=6.3923174  tx=42  date=2016-06-29 10:35:11 progress=1.000000  cache=0.0MiB(41tx)
+2016-06-29 10:35:03 UpdateTip: new best=764e777d4f3de7fed5a5ddb8a1f07b4cf69d3fc9d74006a69605724cf0126866  height=42  log2_work=6.4262648  tx=43  date=2016-06-29 10:35:11 progress=1.000000  cache=0.0MiB(42tx)
+2016-06-29 10:35:03 UpdateTip: new best=4c15b4780f2ba2ae8588632edf346127322c4e87dbdfe4b39906a8fd416f1d1c  height=43  log2_work=6.4594316  tx=44  date=2016-06-29 10:35:11 progress=1.000000  cache=0.0MiB(43tx)
+2016-06-29 10:35:03 UpdateTip: new best=6dc25b4366085f99629ceb2067fe3751c059ca446aa5ffa078d0601f61431b69  height=44  log2_work=6.4918531  tx=45  date=2016-06-29 10:35:12 progress=1.000000  cache=0.0MiB(44tx)
+2016-06-29 10:35:03 UpdateTip: new best=0760afdc723f3467446c1151e780ee4c80da0cc4b9eb97371ec425a01e5f1cc3  height=45  log2_work=6.523562  tx=46  date=2016-06-29 10:35:12 progress=1.000000  cache=0.0MiB(45tx)
+2016-06-29 10:35:03 UpdateTip: new best=2ba3bdd2735d0ea0b7d4fdeb1276d1d5aa744887dc59aac6f4e65ec592426f4b  height=46  log2_work=6.5545889  tx=47  date=2016-06-29 10:35:12 progress=1.000000  cache=0.0MiB(46tx)
+2016-06-29 10:35:03 UpdateTip: new best=307666b3c0bac550fe681fdd5b59fb8606bb896cc9016f17e4db8e9279dfd5e6  height=47  log2_work=6.5849625  tx=48  date=2016-06-29 10:35:12 progress=1.000000  cache=0.0MiB(47tx)
+2016-06-29 10:35:03 UpdateTip: new best=0c1791705bce2eada56ab71c1df959c216233afe77d6f15bcc94f0ce6e68c841  height=48  log2_work=6.6147098  tx=49  date=2016-06-29 10:35:12 progress=1.000000  cache=0.0MiB(48tx)
+2016-06-29 10:35:03 UpdateTip: new best=51d611a41f2f5846456bef5764e92620ff57125c44fe7f024917fd7d5ed066c9  height=49  log2_work=6.6438562  tx=50  date=2016-06-29 10:35:12 progress=1.000000  cache=0.0MiB(49tx)
+2016-06-29 10:35:03 UpdateTip: new best=0c42b97def38bd215b659ae0cb2fafe8edc122f02f1cb3b450cfa0a611eef026  height=50  log2_work=6.6724253  tx=51  date=2016-06-29 10:35:13 progress=1.000000  cache=0.0MiB(50tx)
+2016-06-29 10:35:03 UpdateTip: new best=693aae7f048caafb7be3232f307e1692242d34a64698d8385bdd2dc30dc7c38a  height=51  log2_work=6.7004397  tx=52  date=2016-06-29 10:35:13 progress=1.000000  cache=0.0MiB(51tx)
+2016-06-29 10:35:03 UpdateTip: new best=6989bab5d53bd7ef2e614edd4908ef60bc3074e23d82ef17c615667c9cbf9c7e  height=52  log2_work=6.7279205  tx=53  date=2016-06-29 10:35:13 progress=1.000000  cache=0.0MiB(52tx)
+2016-06-29 10:35:03 UpdateTip: new best=69c209f258f8c38dcf7a446f6be9338234a497550d5bc0792e597ba9f6d7e15d  height=53  log2_work=6.7548875  tx=54  date=2016-06-29 10:35:13 progress=1.000000  cache=0.0MiB(53tx)
+2016-06-29 10:35:03 UpdateTip: new best=1be86b0754732157a1aa6e402ad347d8d1d2c69aa46062c0bbfadbc921aada8b  height=54  log2_work=6.7813597  tx=55  date=2016-06-29 10:35:13 progress=1.000000  cache=0.0MiB(54tx)
+2016-06-29 10:35:03 UpdateTip: new best=4ef99fab4da3110e34d9e818af681b9bb366792184951ece61f2686c8f14193a  height=55  log2_work=6.8073549  tx=56  date=2016-06-29 10:35:13 progress=1.000000  cache=0.0MiB(55tx)
+2016-06-29 10:35:03 UpdateTip: new best=0e636d0fd8047851fbacf1f7e185754051be262eee16ed316df16992c697051b  height=56  log2_work=6.83289  tx=57  date=2016-06-29 10:35:14 progress=1.000000  cache=0.0MiB(56tx)
+2016-06-29 10:35:03 UpdateTip: new best=76ffab7197e3a03058a038ac821a1becc9718dedb171fe5cdbb3f3a4860a5775  height=57  log2_work=6.857981  tx=58  date=2016-06-29 10:35:14 progress=1.000000  cache=0.0MiB(57tx)
+2016-06-29 10:35:03 UpdateTip: new best=01f283afc4d5f443deb377e24663af453a81c7848439face4486653deadadb34  height=58  log2_work=6.882643  tx=59  date=2016-06-29 10:35:14 progress=1.000000  cache=0.0MiB(58tx)
+2016-06-29 10:35:03 UpdateTip: new best=730df18437323f3c9e0d874012d718cfc952890cb3299fdf4985f52aae22751d  height=59  log2_work=6.9068906  tx=60  date=2016-06-29 10:35:14 progress=1.000000  cache=0.0MiB(59tx)
+2016-06-29 10:35:03 UpdateTip: new best=12e8b6ab16836c9c2b79e41213ba7c1fb7fc6cad845224c7a2d49072cd4d1519  height=60  log2_work=6.9307373  tx=61  date=2016-06-29 10:35:14 progress=1.000000  cache=0.0MiB(60tx)
+2016-06-29 10:35:03 UpdateTip: new best=457fe206a588634ad7db665f9710c0b02e5f114b702cdc88234f0abbc968e051  height=61  log2_work=6.9541963  tx=62  date=2016-06-29 10:35:14 progress=1.000000  cache=0.0MiB(61tx)
+2016-06-29 10:35:03 UpdateTip: new best=72582558f6bc7f1d2912f25ea679f16162cb74ddf34143c8a5a533bbf8f5b57d  height=62  log2_work=6.9772799  tx=63  date=2016-06-29 10:35:15 progress=1.000000  cache=0.0MiB(62tx)
+2016-06-29 10:35:03 UpdateTip: new best=0f42c10b1a489d2d21e99a442da793ac4e66bbedf3727cda9f7245b6bbf9eb55  height=63  log2_work=7  tx=64  date=2016-06-29 10:35:15 progress=1.000000  cache=0.0MiB(63tx)
+2016-06-29 10:35:03 UpdateTip: new best=49f2250c478a69ca7f4475fb6ae615cddb933ab9bfa56b34bca3cae5f32a4799  height=64  log2_work=7.0223678  tx=65  date=2016-06-29 10:35:15 progress=1.000000  cache=0.0MiB(64tx)
+2016-06-29 10:35:03 UpdateTip: new best=37a9cc869c83fb64f0020a4d388b9f9112c1cfe41779f2707e338077206b8012  height=65  log2_work=7.0443941  tx=66  date=2016-06-29 10:35:15 progress=1.000000  cache=0.0MiB(65tx)
+2016-06-29 10:35:03 UpdateTip: new best=1e671580d71576cfde41025b17de4b3f15c1ba7ff6995d5cfd36a8137e038499  height=66  log2_work=7.0660892  tx=67  date=2016-06-29 10:35:15 progress=1.000000  cache=0.0MiB(66tx)
+2016-06-29 10:35:03 UpdateTip: new best=3bdb4a794a0b99057ec1b9830e7a40184ffb0d4b1815f8f8d645c7a26768b88f  height=67  log2_work=7.0874628  tx=68  date=2016-06-29 10:35:15 progress=1.000000  cache=0.0MiB(67tx)
+2016-06-29 10:35:03 UpdateTip: new best=2afd0d194ad0b83ad647322ff28832c416853267d529b07e57e2b1a3037fe53d  height=68  log2_work=7.1085245  tx=69  date=2016-06-29 10:35:16 progress=1.000000  cache=0.0MiB(68tx)
+2016-06-29 10:35:03 UpdateTip: new best=23157002163a31d05bd8e171afeed4f214a38bb3f17bce5400d09078eb222eef  height=69  log2_work=7.129283  tx=70  date=2016-06-29 10:35:16 progress=1.000000  cache=0.0MiB(69tx)
+2016-06-29 10:35:03 UpdateTip: new best=1ba8570c2508ac029ad44c3967925122bb51357680190ec14e6e70055cf671c1  height=70  log2_work=7.1497471  tx=71  date=2016-06-29 10:35:16 progress=1.000000  cache=0.0MiB(70tx)
+2016-06-29 10:35:03 UpdateTip: new best=2534987b0fd9cf34cfd991452a2e12c28f1e6a5107eaf41259a43ecf0b7285d6  height=71  log2_work=7.169925  tx=72  date=2016-06-29 10:35:16 progress=1.000000  cache=0.0MiB(71tx)
+2016-06-29 10:35:03 UpdateTip: new best=2e5a1d8e86052eedffc96543b07926b3abd05a33791b687276ab14eeb355c61d  height=72  log2_work=7.1898246  tx=73  date=2016-06-29 10:35:16 progress=1.000000  cache=0.0MiB(72tx)
+2016-06-29 10:35:03 UpdateTip: new best=512ae68511af36d1671d3d90ea7f021bc3d10114dd2a6c7789bf327b394b293d  height=73  log2_work=7.2094534  tx=74  date=2016-06-29 10:35:16 progress=1.000000  cache=0.0MiB(73tx)
+2016-06-29 10:35:03 UpdateTip: new best=2192e763b2c544fa9792f27c15a445bc7d7029d026fe014d54eba4d5c3e820c5  height=74  log2_work=7.2288187  tx=75  date=2016-06-29 10:35:17 progress=1.000000  cache=0.0MiB(74tx)
+2016-06-29 10:35:03 UpdateTip: new best=795734121643ef68a497b554feb9a60dfd051f2d7c947b06674168a7aa5add5c  height=75  log2_work=7.2479275  tx=76  date=2016-06-29 10:35:17 progress=1.000000  cache=0.0MiB(75tx)
+2016-06-29 10:35:03 UpdateTip: new best=29e6f26a2a1e2c22650b5839a02adea9f20c1c8e58d0be746d3803b15189ce5e  height=76  log2_work=7.2667865  tx=77  date=2016-06-29 10:35:17 progress=1.000000  cache=0.0MiB(76tx)
+2016-06-29 10:35:03 UpdateTip: new best=40703aeba789251431c4b6fcaff49e59b8c484a00a45e5d87c44b5fa5edfe244  height=77  log2_work=7.2854022  tx=78  date=2016-06-29 10:35:17 progress=1.000000  cache=0.0MiB(77tx)
+2016-06-29 10:35:03 UpdateTip: new best=20b7370509e029cfb3ebdf4edbecbcdfb3a15e0b46fc541cee5b2d06618f12ce  height=78  log2_work=7.3037807  tx=79  date=2016-06-29 10:35:17 progress=1.000000  cache=0.0MiB(78tx)
+2016-06-29 10:35:03 UpdateTip: new best=2cd65c625f17705d033fe37e84f80cb054d703289267e8e19af8b781bd55b72e  height=79  log2_work=7.3219281  tx=80  date=2016-06-29 10:35:17 progress=1.000000  cache=0.0MiB(79tx)
+2016-06-29 10:35:03 UpdateTip: new best=402adc29f9a13a378b3171ee7af6337a1ffe375c070b597d8a6f3efeb7a0d9da  height=80  log2_work=7.33985  tx=81  date=2016-06-29 10:35:18 progress=1.000000  cache=0.0MiB(80tx)
+2016-06-29 10:35:03 UpdateTip: new best=7fbd8ad177d5dcd703ed77555c618ffb67fab12c35d84416b5ae1bbe6dfa51b6  height=81  log2_work=7.357552  tx=82  date=2016-06-29 10:35:18 progress=1.000000  cache=0.0MiB(81tx)
+2016-06-29 10:35:03 UpdateTip: new best=50a6540873e7415452192425dd94bf3355eff8bc88a68b5daedbaf3332f74f08  height=82  log2_work=7.3750394  tx=83  date=2016-06-29 10:35:18 progress=1.000000  cache=0.0MiB(82tx)
+2016-06-29 10:35:03 UpdateTip: new best=35bd2fe4cd47b835adf243d67bfbe817c298a99a88481939e62aefd092957c4b  height=83  log2_work=7.3923174  tx=84  date=2016-06-29 10:35:18 progress=1.000000  cache=0.0MiB(83tx)
+2016-06-29 10:35:03 UpdateTip: new best=689e326aa08be268cd42227c2e9b82586ac809826f49e344abf6702fd3f9fd26  height=84  log2_work=7.4093909  tx=85  date=2016-06-29 10:35:18 progress=1.000000  cache=0.0MiB(84tx)
+2016-06-29 10:35:03 UpdateTip: new best=19f20eb3875c8cc84994d25e6e430afacb090d7da3a657407ee15d9989b8e6da  height=85  log2_work=7.4262648  tx=86  date=2016-06-29 10:35:18 progress=1.000000  cache=0.0MiB(85tx)
+2016-06-29 10:35:03 UpdateTip: new best=2891087dadc1fcd980d26513c7f96d9edfeafd224b4ff5eb648e03eed68463ee  height=86  log2_work=7.4429435  tx=87  date=2016-06-29 10:35:19 progress=1.000000  cache=0.0MiB(86tx)
+2016-06-29 10:35:03 UpdateTip: new best=5025a0794513b5e544a92494a3830c1904e2ffb5e63d940feb19f465e4d2a244  height=87  log2_work=7.4594316  tx=88  date=2016-06-29 10:35:19 progress=1.000000  cache=0.0MiB(87tx)
+2016-06-29 10:35:03 UpdateTip: new best=04d83ef05eb1985216727796b55fe68532738a99732659f77af82cf02857159c  height=88  log2_work=7.4757334  tx=89  date=2016-06-29 10:35:19 progress=1.000000  cache=0.0MiB(88tx)
+2016-06-29 10:35:03 UpdateTip: new best=28676463789a6a146ac6ffa0f75c299396ca552f9d0767196f9804c3454caf68  height=89  log2_work=7.4918531  tx=90  date=2016-06-29 10:35:19 progress=1.000000  cache=0.0MiB(89tx)
+2016-06-29 10:35:03 UpdateTip: new best=57609470cabfd6fd955052f2bf1b9c4f4b3c247b59dc43049b1d9b7403a654a8  height=90  log2_work=7.5077946  tx=91  date=2016-06-29 10:35:19 progress=1.000000  cache=0.0MiB(90tx)
+2016-06-29 10:35:03 UpdateTip: new best=0ed39f92b1549336c2239f5d743b5fc283257b66b5330cc3d4a28b676bc6605e  height=91  log2_work=7.523562  tx=92  date=2016-06-29 10:35:19 progress=1.000000  cache=0.0MiB(91tx)
+2016-06-29 10:35:03 UpdateTip: new best=7cd9c3bbcc42c1f5cdf134d415b86beb48508bff1b9e05d846616996e9d7cf16  height=92  log2_work=7.5391588  tx=93  date=2016-06-29 10:35:20 progress=1.000000  cache=0.0MiB(92tx)
+2016-06-29 10:35:03 UpdateTip: new best=56fa87c4251f9e0f2da8408116dbcd2b5466948c237fe2ac1f71deb9be60ceb3  height=93  log2_work=7.5545889  tx=94  date=2016-06-29 10:35:20 progress=1.000000  cache=0.0MiB(93tx)
+2016-06-29 10:35:03 UpdateTip: new best=692c48c65d3c121f1bfc9234e8fe5cd93c8639dd9c3a4b88668cf34ee09cebec  height=94  log2_work=7.5698556  tx=95  date=2016-06-29 10:35:20 progress=1.000000  cache=0.0MiB(94tx)
+2016-06-29 10:35:03 UpdateTip: new best=0e7e9a5d66f9b37e362c118c362218861697f8df776d1bf3d0fd292221657082  height=95  log2_work=7.5849625  tx=96  date=2016-06-29 10:35:20 progress=1.000000  cache=0.0MiB(95tx)
+2016-06-29 10:35:03 UpdateTip: new best=61199cd43e530cf8f8851924b886b4098f2b1c2f613f3ad0b0107eecde364861  height=96  log2_work=7.5999128  tx=97  date=2016-06-29 10:35:20 progress=1.000000  cache=0.0MiB(96tx)
+2016-06-29 10:35:03 UpdateTip: new best=424db3e08b4247d0084822fc6b620dd3243d763997c6fff380293f512eb69c28  height=97  log2_work=7.6147098  tx=98  date=2016-06-29 10:35:20 progress=1.000000  cache=0.0MiB(97tx)
+2016-06-29 10:35:03 UpdateTip: new best=461cc879939c23cf046edccb05c8fb1fbad116fbbbc28a02d5968d5b443d33a3  height=98  log2_work=7.6293566  tx=99  date=2016-06-29 10:35:21 progress=1.000000  cache=0.0MiB(98tx)
+2016-06-29 10:35:03 UpdateTip: new best=388ca4424490b7d90586ef7ef168441a437039245cc9bf05e4dd4b53540412a0  height=99  log2_work=7.6438562  tx=100  date=2016-06-29 10:35:21 progress=1.000000  cache=0.0MiB(99tx)
+2016-06-29 10:35:03 UpdateTip: new best=05050cfbe30d647a7931852bd6a7c6f7f1553d84ab1bd8a857b1de14ac349860  height=100  log2_work=7.6582115  tx=101  date=2016-06-29 10:35:21 progress=1.000000  cache=0.0MiB(100tx)
+2016-06-29 10:35:03 UpdateTip: new best=31e4e74e9fafd6217a41bbd5fdc0cf1bd2b53f2a5993821d05e236f6a21d271b  height=101  log2_work=7.6724253  tx=102  date=2016-06-29 10:35:21 progress=1.000000  cache=0.0MiB(101tx)
+2016-06-29 10:35:22 keypool reserve 2
+2016-06-29 10:35:22 keypool return 2
+2016-06-29 10:35:28 keypool reserve 2
+2016-06-29 10:35:28 keypool keep 2
+2016-06-29 10:35:51 AddToWallet 3bc7b15632f83e5f05bbf55c1b1e6bcfd163f54f85af53318ad613bce58e6dd5  new
+2016-06-29 10:35:54 keypool added key 103, size=101
+2016-06-29 10:35:54 keypool reserve 3
+2016-06-29 10:35:54 keypool return 3
+2016-06-29 10:36:02 UpdateTip: new best=22531bedc2069b40e8f9db2416374feb51b41978d577cdbb9e0f7bf764277c53  height=102  log2_work=7.6865005  tx=104  date=2016-06-29 10:36:02 progress=1.000000  cache=0.0MiB(102tx)
+2016-06-29 10:36:02 AddToWallet 3bc7b15632f83e5f05bbf55c1b1e6bcfd163f54f85af53318ad613bce58e6dd5  update
+2016-06-29 10:36:04 keypool reserve 3
+2016-06-29 10:36:04 keypool return 3
+2016-06-29 11:05:22 keypool reserve 3
+2016-06-29 11:05:22 keypool return 3
+2016-06-29 12:36:29 keypool reserve 3
+2016-06-29 12:36:29 keypool return 3
+2016-06-29 12:47:01 keypool reserve 3
+2016-06-29 12:47:01 keypool return 3
+2016-06-29 12:54:20 keypool reserve 3
+2016-06-29 12:54:20 keypool return 3
+2016-06-29 12:54:40 keypool reserve 3
+2016-06-29 12:54:40 keypool keep 3
+2016-06-29 12:55:08 UpdateTip: new best=1b3517ae42dee3484b09419d60d249170b3db28edfb2e7ee59393ab5dd2bdce9  height=103  log2_work=7.7004397  tx=106  date=2016-06-29 12:55:07 progress=1.000000  cache=0.0MiB(104tx)
+2016-06-29 12:55:08 AddToWallet 9be5b0e6342156f994f930253a2d7f668bf448e296ec969553953300ed74fcbe  new
+2016-06-29 12:56:11 AddToWallet c3429d7118f3a6d1d2161fda01c68b36c819834f0fa58765a507430192706df0  new
+2016-06-29 12:56:12 UpdateTip: new best=7a968ba68f54ce11e28710d62d290b2c741400a19b1913009baeb13457f30a13  height=104  log2_work=7.7142455  tx=108  date=2016-06-29 12:56:12 progress=1.000000  cache=0.0MiB(106tx)
+2016-06-29 12:56:12 AddToWallet c3429d7118f3a6d1d2161fda01c68b36c819834f0fa58765a507430192706df0  update

@@ -1,0 +1,114 @@
+2016-06-29 12:50:28 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016-06-29 12:50:28 Bitcoin version v0.12.1.0-g9779e1e (Mon, 11 Apr 2016 13:01:43 +0200)
+2016-06-29 12:50:28 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2016-06-29 12:50:28 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2016-06-29 12:50:28 Default data directory /home/matthias/.bitcoin
+2016-06-29 12:50:28 Using data directory /home/matthias/lab/bitcoin-testnet-box/1/regtest/regtest
+2016-06-29 12:50:28 Using config file /home/matthias/lab/bitcoin-testnet-box/1/bitcoin.conf
+2016-06-29 12:50:28 Using at most 125 connections (1024 file descriptors available)
+2016-06-29 12:50:28 Using 2 threads for script verification
+2016-06-29 12:50:28 scheduler thread start
+2016-06-29 12:50:28 Binding RPC on address :: port 19001 failed.
+2016-06-29 12:50:28 Binding RPC on address 0.0.0.0 port 19001 failed.
+2016-06-29 12:50:28 Unable to bind any endpoint for RPC server
+2016-06-29 12:50:33 scheduler thread interrupt
+2016-06-29 12:50:33 Shutdown: In progress...
+2016-06-29 12:50:33 StopNode()
+2016-06-29 12:50:33 Shutdown: done
+2016-06-29 12:50:54 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016-06-29 12:50:54 Bitcoin version v0.12.1.0-g9779e1e (Mon, 11 Apr 2016 13:01:43 +0200)
+2016-06-29 12:50:54 InitParameterInteraction: parameter interaction: -connect set -> setting -listen=0
+2016-06-29 12:50:54 InitParameterInteraction: parameter interaction: -listen=0 -> setting -discover=0
+2016-06-29 12:50:54 InitParameterInteraction: parameter interaction: -listen=0 -> setting -listenonion=0
+2016-06-29 12:50:54 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2016-06-29 12:50:54 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2016-06-29 12:50:54 Default data directory /home/matthias/.bitcoin
+2016-06-29 12:50:54 Using data directory /home/matthias/lab/bitcoin-testnet-box/1/regtest/regtest
+2016-06-29 12:50:54 Using config file /home/matthias/lab/bitcoin-testnet-box/1/bitcoin.conf
+2016-06-29 12:50:54 Using at most 125 connections (1024 file descriptors available)
+2016-06-29 12:50:54 Using 2 threads for script verification
+2016-06-29 12:50:54 scheduler thread start
+2016-06-29 12:50:54 Binding RPC on address :: port 19001 failed.
+2016-06-29 12:50:54 Binding RPC on address 0.0.0.0 port 19001 failed.
+2016-06-29 12:50:54 Unable to bind any endpoint for RPC server
+2016-06-29 12:50:58 scheduler thread interrupt
+2016-06-29 12:50:58 Shutdown: In progress...
+2016-06-29 12:50:58 StopNode()
+2016-06-29 12:50:58 Shutdown: done
+2016-06-29 12:52:30 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016-06-29 12:52:30 Bitcoin version v0.12.1.0-g9779e1e (Mon, 11 Apr 2016 13:01:43 +0200)
+2016-06-29 12:52:30 InitParameterInteraction: parameter interaction: -connect set -> setting -listen=0
+2016-06-29 12:52:30 InitParameterInteraction: parameter interaction: -listen=0 -> setting -discover=0
+2016-06-29 12:52:30 InitParameterInteraction: parameter interaction: -listen=0 -> setting -listenonion=0
+2016-06-29 12:52:30 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2016-06-29 12:52:30 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2016-06-29 12:52:30 Default data directory /home/matthias/.bitcoin
+2016-06-29 12:52:30 Using data directory /home/matthias/lab/bitcoin-testnet-box/1/regtest/regtest
+2016-06-29 12:52:30 Using config file /home/matthias/lab/bitcoin-testnet-box/1/bitcoin.conf
+2016-06-29 12:52:30 Using at most 125 connections (1024 file descriptors available)
+2016-06-29 12:52:30 Using 2 threads for script verification
+2016-06-29 12:52:30 Binding RPC on address :: port 19001 failed.
+2016-06-29 12:52:30 Binding RPC on address 0.0.0.0 port 19001 failed.
+2016-06-29 12:52:30 Unable to bind any endpoint for RPC server
+2016-06-29 12:52:30 scheduler thread start
+2016-06-29 12:52:32 scheduler thread interrupt
+2016-06-29 12:52:32 Shutdown: In progress...
+2016-06-29 12:52:32 StopNode()
+2016-06-29 12:52:32 Shutdown: done
